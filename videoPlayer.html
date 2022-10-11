@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title="Video Player">
+        <video controls
+                disablepictureinpicture
+               controlslist="nofullscreen nodownload noremoteplayback noplaybackrate">
+            <source src={videoUrl} type="video/mp4"/>
+        </video>
+    </lightning-card>
+</template>
